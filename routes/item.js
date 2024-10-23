@@ -15,7 +15,7 @@ router.put('/items/:id', (req,res)=>{
   res.send('got a put requests');
 })
 router.delete('/items/:id', (req,res)=>{
-  res.send('got a Delete requests');
+  res.send('got a Delete requestsss');
 })
 
 module.exports = router
