@@ -1,0 +1,5 @@
+// Middlware
+
+>> Jab bhi server request accept krti hai waha se route ke beech pahuchne tak 
+agr aap us request ko beech me rokte ho and kuch perform karte ho,to ye
+element Middlware kehlata hai..

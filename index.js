@@ -1,9 +1,25 @@
+// const express = require('express')
+// const app = express()
+// const port = 3000
+
+// const item= require ('./routes/item')
+// app.use('/api',item);
+// app.listen(port, () => {
+//   console.log("Application Started");
+// })
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4001;
 
-const item= require ('./routes/item')
-app.use('/api',item);
+
+app.use(function(req,res,next){
+  console.log("Middleware chla");
+  next();
+});
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+});
+
 app.listen(port, () => {
-  console.log("Application Started");
-})
+  console.log(`Example app listening on port ${port}`)
+});
