@@ -1,0 +1,11 @@
+// Node JS- Node js Javasript ka runtime environment hai .
+
+  To Make NodeJS Project - NPM init
+  Package.Json - It has all the information related about the project.
+  
+  Why we Need Node JS ?
+
+  -> Phle Javascript sirf Browser pr chlta tha later on kuch developer ne Google k V8 Engine ko Chrome se bhr niklakar ek chiz
+     Banna jo ki local System pr chlye Javascript ko usko Node js Bolte hai.
+
+  Packages- Ek resuable code hota hai jo ki koi aur developer likhta hai aur hum uska use kr skte hai.
