@@ -11,4 +11,33 @@
   Packages- Ek resuable code hota hai jo ki koi aur developer likhta hai aur hum uska use kr skte hai.
   Npm- Website se code pr lana ka kam Npm krta hai
 
-  harsh
+Express JS
+ >> In Simple words, Express Js is like a helper that makes building a server with Node.js Fast and Easy.
+ >> Node JS is the Main thing expres ke code se hum server ka code likh pate and server kaise react krega wo 
+    bhi express ke help se likhte hai.
+ >> Express-> Package, routing, Server side pr pura management, data handling request ko handle krna, response pr
+              Bhejna
+ Why Express?
+ >>  Http is difficult to use, express Makes it easier.
+
+ routing
+ >> Routes bnna ke process ko hum kahte hai routing.
+    / --> Home denotes
+    /Profile--> Profile
+    / Hoome---> Home                      
+
+ Middlware
+ >>  Middleware ek aisha function hota hai jo har route se phele chlta hai usse pahle middlware chlta hai and 
+    usmein likha code pahle exceute hota hai.   
+
+   1. req-> req me hota hai user ka data
+   2. res-> res me hota hai jb server se response ayega
+   3. next-> next is just a push so that our request moves to the next thing which should be executed.
+
+  Types of Middleware
+
+  1. Custom Middleware: User-defined middleware for specific application needs.
+  2. Third-Party Middleware: Middleware provided by external libraries to add functionality.
+
+
+
