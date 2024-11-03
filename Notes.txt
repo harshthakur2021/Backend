@@ -38,6 +38,13 @@ Express JS
 
   1. Custom Middleware: User-defined middleware for specific application needs.
   2. Third-Party Middleware: Middleware provided by external libraries to add functionality.
+  3. Built-in Middleware : app.use(express.json()) 
+                           app.use(express.urlencoded({extended:true}))    
 
 
+>> Form Controls- frontend se data server pr manga ke use kr skte hai...
+>> Backend pr kuch bhi data mgwana hai ya send krna hai to route key use krna hota hai..     
 
+   Method-
+   1. Get- Server se data frontend tk mngne k liye 
+   2. Post- frontend se data Backend tk mgwana me use hota
