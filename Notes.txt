@@ -38,7 +38,7 @@ Express JS
 
   1. Custom Middleware: User-defined middleware for specific application needs.
   2. Third-Party Middleware: Middleware provided by external libraries to add functionality.
-  3. Built-in Middleware : app.use(express.json()) 
+  3. Built-in Middleware : app.use(express.json()) data ko parse krne me help krta hai ye Middleware
                            app.use(express.urlencoded({extended:true}))    
 
 
@@ -48,3 +48,8 @@ Express JS
    Method-
    1. Get- Server se data frontend tk mngne k liye 
    2. Post- frontend se data Backend tk mgwana me use hota
+
+   >> Database- A Collection of organized information on a particular subject.
+   >> MongoDB Compass- It is a GUI tool through which we can interact with your db.
+   >> Collection - A Collection is a group of MongoDB Documents.
+   
