@@ -49,7 +49,18 @@ Express JS
    1. Get- Server se data frontend tk mngne k liye 
    2. Post- frontend se data Backend tk mgwana me use hota
 
+   >> Data Storage- Aisa kuch jaha hum sare users ki info store kar skte hai.
+   Types of DBS-
+      1. SQL- Data Table ke form me store hota hai.
+      2. NOSQL- Data Object ke form me store hota hai.
+
+   >> Database-> Collections -> Document
+   Code                         Database
+   mongoose.connect ->          database create 
+   model create     ->         Collection
+   create code         ->         Document
    >> Database- A Collection of organized information on a particular subject.
    >> MongoDB Compass- It is a GUI tool through which we can interact with your db.
    >> Collection - A Collection is a group of MongoDB Documents.
    
+  
