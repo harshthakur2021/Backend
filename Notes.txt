@@ -56,11 +56,12 @@ Express JS
 
    >> Database-> Collections -> Document
    Code                         Database
-   mongoose.connect ->          database create 
-   model create     ->         Collection
-   create code         ->         Document
+   mongoose.connect ->          database create  --> Jb mongoose connect krte hai code tb databse me database create hota hai
+   model create     ->         Collection       ---> Jb model create krta hai tb collection create hota hai.
+   create code         ->         Document     --->  Jb create code likhte hai usse document create hota hai.
    >> Database- A Collection of organized information on a particular subject.
    >> MongoDB Compass- It is a GUI tool through which we can interact with your db.
    >> Collection - A Collection is a group of MongoDB Documents.
    
-  
+  >> Mongoose- Hamre ps do server hai ek node ka server hai ek mongodb k server hai
+               Mongoose help krta hai node k server se mongodb k server se batchit krne k liye.
