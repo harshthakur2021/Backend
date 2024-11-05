@@ -1,12 +1,15 @@
-  const { name } = require('ejs');
-const mongoose = require('mongoose');
-  mongoose.connect ('mongodb://127.0.0.1:27017/mongopractice');
+const mongoose = require ("mongoose");
+ mongoose.connect ("mongodb://127.0.0.1:27017/Practicekaro");
 
 
-  const userSchema= mongoose.Schema({
-    name:String,
-    username: String,
-    email: String
-  })
+ // Schema matlab aapko ye batana waala har document mein kya kya hoga
 
-  module.exports= mongoose.model("user", userSchema);
+
+  const userschema= mongoose.Schema({
+  username: String,
+  name: String,
+  age:Number
+
+ })
+
+module.exports=  mongoose.model ("user",userschema);
