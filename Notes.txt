@@ -69,3 +69,10 @@ Express JS
    
   >> Mongoose- Hamre ps do server hai ek node ka server hai ek mongodb k server hai
                Mongoose help krta hai node k server se mongodb k server se batchit krne k liye.
+
+ >> Database usuallyy allow access to 4 Primitives
+   1. Create Data
+   2. Read Data
+   3. Update Data
+   4. Delete Data
+   Popularly known as CRUD Operation.
