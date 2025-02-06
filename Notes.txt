@@ -54,6 +54,16 @@ Express JS
    2. Post- frontend se data Backend tk mgwana me use hota
 
    >> Data Storage- Aisa kuch jaha hum sare users ki info store kar skte hai.
+   Summary
+Node.js allows JavaScript to run outside browsers.
+NPM manages reusable code packages.
+Express.js makes backend development easier.
+Routing defines different pages (/, /profile, etc.).
+Middleware processes requests before they reach the server logic.
+View Engines (EJS) help render dynamic HTML.
+Form Handling & HTTP Methods allow data exchange between frontend and backend.
+
+
    Types of DBS-
       1. SQL- Data Table ke form me store hota hai.
       2. NOSQL- Data Object ke form me store hota hai.
